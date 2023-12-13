@@ -27,7 +27,7 @@ def mul_values(a: int, b: int) -> int:
     '''
     BUG003: mul_values should return the product of the values, not the ratio.
     '''
-    result = a // b
+    result = a * b
     return result
 
 
